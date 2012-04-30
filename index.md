@@ -22,6 +22,6 @@ and or mobile hardware that is somewhat more fun than a lot of other activities.
 
 For non-recruiters, if you want to get a hold of me use my send-email button on my G-plus about page:
 
-<a href="http://www.google.com/plus" target="_blank">My Gogle Plus About Page</a>
+<a href="https://plus.google.com/u/0/114301140286672625486/about" target="_blank">My Gogle Plus About Page</a>
 
 
