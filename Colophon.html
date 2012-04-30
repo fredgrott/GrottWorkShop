@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Colophon</title>
     
     <meta name="author" content="Fred Grott">
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -105,7 +105,7 @@
     
       
       	
-      	<li><a href="/Colophon.html">Colophon</a></li>
+      	<li class="active"><a href="/Colophon.html" class="active">Colophon</a></li>
       	
       
     
@@ -165,23 +165,53 @@
             
 
 <div class="page-header">
-  <h1>Home  <small>Mobile hacking</small></h1>
+  <h1>Colophon </h1>
 </div>
 
 <div class="row">
 
 
   <div class="span8">
-    <h2 id='id4'><i>Mobile Hacking</i></h2>
+    <h2 id='how_this_was_built'>How This Was Built</h2>
+<a href='/assets/img/colophon_browser_full.png' target='_blank'>
+<div class='well'>
+<img src='/assets/img/colophon_browser_small.png' />
+</div>
+</a>
+<p>Okay so I am using some basic Ruby items: <ul class='well'>
+      <li>Jekyll</li>
+      <li>Liquid</li>
+      <li>YAML</li>
+      <li>Maruku</li>
+     </ul></p>
 
-<p>So while mobile hacking I build projects, products, and mobile services. I write about it here with some insights into start-ups. We are in an exciting time where mobile devices and mobile services that connect big data to our mobile devices are becoming the new Personal Computer.</p>
+<p>Jekyll is a templete engine among several template engines suhc as hyde ClearSilver, etc. With a template engine you have what we use to rely on with server side includes in that it allows us to repeat snippets of code/html. In my particular set-up I am not using plugins but if you want you can add ruby plugins that hook into both Jekyll and Liquid to add even more features.</p>
 
-<p>Actuallly, mobile developers whether they are hadware hackers, mobile application hackers or mobile operating system hackers are building the Star Trek Communicator infrastructure or the SkyNET infrastructure depending uppon how you feel about all this new mobile technology.</p>
+<p>Liquid is more of a layout engine in that you can specify certain logic constructs and use variables to create dynamic layouts of such things like aproduct catalogue for example. In this site example, the top navigaition bar is dynamically created via liquid logic and variables.</p>
 
-<p>But, our actual vision or what we envision is the ability to empower the human masses to not only multiply human knowledge and use of that human knowlede but multiply the opportunities for everyone to pursue their life visions. For many of us busy building mobile applications, mobile services, and or mobile hardware that is somewhat more fun than a lot of other activities.</p>
+<p>What is nice about Maruku is that you get nice helpful warnings in the terminal to correct your markdown/html syntax and often its close to suggesting where the actual error occurred.</p>
 
-<p>For non-recruiters, if you want to get a hold of me use my send-email button on my G-plus about page:</p>
-<a href='http://www.google.com/plus' target='_blank'>My Gogle Plus About Page</a>
+<p>And some other stuff that is not Ruby based: <ul class='well'>
+       <li>Markdown</li>
+       <li>Twitter BootStrap</li>
+       <li>JekyllBootstrap</li>
+       <li>Eclipse IDE/Aptana</li>
+       <li>Github hosting</li>
+</ul> While testing I use a command:</p>
+<code>jekyll --server</code>
+<p>to run jekyll to generate the pages in -site sub-folder and view it in a browser at:</p>
+<code>localhost:4000</code>
+<p>as Jade&#8217;s JekyllBootstrap has some liquid and config.yml magic to allow me to do that without large amount of manual settings.</p>
+
+<p>I am using Github hosting as will eventually be using this on my own domain and Github allows one to use CNAME to redirect everything to the domain name.</p>
+
+<p>While their exists several responsive hmtl5 frameworks I have found that Twitter&#8217;s Bootstrap is the one that most servers my needs. And because I also use that same framework for my project codeqa and project docs I get a full re-use.</p>
+
+<p>You can find my git of this site at:</p>
+
+<p><a href='http://github.com/shareme/GrottWorkShop'>Git of GrottWorkshop</a></p>
+
+<p>to see what modifications I made to Jade&#8217;s JekyllBootstrap.</p>
   </div>
 </div>
 
