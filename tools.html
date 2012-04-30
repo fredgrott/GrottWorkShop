@@ -1,0 +1,15 @@
+---
+layout: page
+title: Tools
+header: Pages For Tools
+group: navigation
+---
+{% include JB/setup %}
+
+{% if page.categories.contains "tools: %}
+<h2>Mobile</h2>
+ <ul>
+     {% assign pages_list = site.categories.tools %}
+     {% include JB/pages_list %}
+     </ul>
+{% endif %}

@@ -1,0 +1,15 @@
+---
+layout: page
+title: ServerSide
+header: Pages For ServerSide
+group: navigation
+---
+{% include JB/setup %}
+
+{% if page.categories.contains "serverside: %}
+<h2>Mobile</h2>
+ <ul>
+     {% assign pages_list = site.categories.serverside %}
+     {% include JB/pages_list %}
+     </ul>
+{% endif %}

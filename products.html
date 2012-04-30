@@ -1,0 +1,15 @@
+---
+layout: page
+title: Products
+header: Pages By Product
+group: navigation
+---
+{% include JB/setup %}
+
+{% if page.categories.contains "products: %}
+<h2>Products</h2>
+ <ul>
+     {% assign pages_list = site.categories.products %}
+     {% include JB/pages_list %}
+     </ul>
+{% endif %}

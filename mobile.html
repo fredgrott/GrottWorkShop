@@ -1,0 +1,15 @@
+---
+layout: page
+title: Mobile
+header: Pages For Mobile
+group: navigation
+---
+{% include JB/setup %}
+
+{% if page.categories.contains "mobile: %}
+<h2>Mobile</h2>
+ <ul>
+     {% assign pages_list = site.categories.mobile %}
+     {% include JB/pages_list %}
+     </ul>
+{% endif %}
