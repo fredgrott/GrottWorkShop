@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>GrottWorkShop</title>
- <link href="http://shareme.github.com/GrottWorkShop//atom.xml" rel="self"/>
+ <link href="http://shareme.github.com/GrottWorkShop/atom.xml" rel="self"/>
  <link href="http://shareme.github.com/GrottWorkShop/"/>
- <updated>2012-04-30T06:18:09-05:00</updated>
+ <updated>2012-04-30T07:26:54-05:00</updated>
  <id>http://shareme.github.com/GrottWorkShop/</id>
  <author>
    <name>Fred Grott</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>First Post</title>
-   <link href="http://shareme.github.com/GrottWorkShop//first/2012/04/28/first-post"/>
+   <link href="http://shareme.github.com/GrottWorkShop/first/2012/04/28/first-post"/>
    <updated>2012-04-28T00:00:00-05:00</updated>
-   <id>http://shareme.github.com/GrottWorkShop//first/2012/04/28/first-post</id>
+   <id>http://shareme.github.com/GrottWorkShop/first/2012/04/28/first-post</id>
    <content type="html">&lt;h2 id='is_the_mike_on'&gt;Is the Mike on?&lt;/h2&gt;
 
 &lt;p&gt;Well, its my first post testing my new blog setup as I do not think Posterous will be up that much longer with Twitter buying the engineer staff. Typically this blog will cover mobile application development but there will be some mixing in of start-up culture, the mobile OEM and operator industries, and general hacking up new tools and products.&lt;/p&gt;
