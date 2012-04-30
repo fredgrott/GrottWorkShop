@@ -15,7 +15,9 @@ author :
   name : Fred Grott
   email : fred.grott@gmail.com
   github : shareme
-  
+
+addthis:
+    id: ra-4ea7e18b3e78fcd8
   
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -53,7 +55,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : http://shareme.github.com/GrottWorkShop
+  BASE_PATH : http://shareme.github.com/GrottWorkShop/
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -71,6 +73,8 @@ JB :
   archive_path: /archive.html
   categories_path : /categories.html
   tags_path : /tags.html
+  
+  
 
 # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.

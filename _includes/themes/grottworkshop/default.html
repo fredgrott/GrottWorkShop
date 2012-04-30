@@ -65,26 +65,26 @@
                <h3>Recent Products</h3>
                <div id="products" class="well">
                {% for post in site.topics.products limit: 10%}
-                     <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+                     <p><a href=".{{ post.url }}">{{ post.title }}</a></p>
                 {% endfor %}
                 </div>
                 <h3>Recent Projects</h3>
                 <div id="projects" class="well">
                 {% for posts in site.topics.projects imit: 10%}
-                      <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+                      <p><a href=".{{ post.url }}">{{ post.title }}</a></p>
                  {% endfor %}
                 </div>
           <h3>Recent Articles</h3>
           <div id="articles" class="well">
           {% for post in site.topics.articles limit: 10%}
-               <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+               <p><a href=".{{ post.url }}">{{ post.title }}</a></p>
            {% endfor %}
           </div>
           
             <h3>Recent Posts</h3>
             <div id="posts" class="well">
               {% for post in site.posts limit:10%}
-                <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+                <p><a href=".{{ post.url }}">{{ post.title }}</a></p>
               {% endfor %}
             </div>
             <h3>My Repos</h3>
